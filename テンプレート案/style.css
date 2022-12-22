@@ -558,3 +558,30 @@ div[id^="max_width"] {
 	max-width: 1200px;
 }
 }
+/* 002 */
+.button002 a {
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.button002 a:before {
+    content: "\f201";
+    position: relative;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 8px;
+    color: #999;
+}
+.button002 a:hover {
+    background: #313131;
+    color: #FFF;
+}
